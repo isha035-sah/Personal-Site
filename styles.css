@@ -1,0 +1,156 @@
+body {
+  background-color: #E1FFB1;
+  /* margin:0 sticks every element upwards */
+  /* margin: 0; */
+  text-align: center;
+  /* text-align :center will center everytings in the center who are independent of width  */
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+p{
+    line-height: 2;
+}
+span{
+  font-weight: bold;
+}
+h1 {
+  /* margin auto always keeps the ele in the center either vertically or horizontally
+  margin: 0 auto 0 auto;
+*/
+color: #7FB77E;
+  font-family: 'Sacramento', cursive;
+  /* personal recommendation from angela use rem */
+  font-size: 5.625rem;
+  /* 100%=16px  */
+
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color:#7FB77E;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+h3,a {
+
+  color: #9EB23B;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+hr{
+  border: dotted white 3px;
+border-bottom: none;
+  width: 2%;
+  margin:75px auto 75px auto;
+  /* background-color: white; */
+
+}
+button{
+  background-color: #C7F2A4;
+  /* background-color: #7FB77E; */
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 10%;
+
+ margin: 2.5rem auto 2.5rem auto;
+cursor: pointer;
+border-style: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-decoration: none;
+
+}
+button:hover{
+  width: 15rem;
+  height: 5rem;
+  color: black;
+}
+
+.top-container {
+  /* background-color: #C7F2A4; */
+  /* height: 100px; */
+  background-color: #E1FFB1;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.middle-container {
+  background-color: #B6E388;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+}
+
+
+ .bottom-container {
+   height: 5.25rem;
+  background-color: #FCFFB2;
+  padding: 50px 0 20px;
+}
+.footer-link{
+  /* margin-top: 2.5rem; */
+  padding: 0 2rem 0 2rem;
+  text-decoration: none;
+  /* margin: 2.5rem auto 2.5rem auto; */
+ }
+ .footer-link:hover{
+   /* color: #FCA652; */
+   color: #F1A661;
+ }
+ .copy-right{
+   font-size: 0.75rem;
+   padding: 20px 0px;
+ }
+.ecommerce{
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.java{
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+
+  margin:100px auto 100px auto;
+  text-align: left;
+  width: 60%;
+}
+.contact-message{
+margin: 40px auto 40px auto;
+  width: 23%;
+}
+
+.btn{
+  text-decoration: none;
+
+}
+/* .web-desc{
+  clear:left;
+}
+.java-desc{
+  clear: right;
+} */
+
+/* notes */
+/* # margin auton on the left and right brings the div to the center */
+/* # the float property helps to wrap any element to left , right ,center etc
+float is the most used and missused css so angela suggests to use float only when we want to wrap any element around
+a certain element */
+/* # the clear css clears the css applied */
